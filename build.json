@@ -1,0 +1,9 @@
+{
+    "targets": {
+        "lode78-orgrmimmar": {
+            "type" : "static",
+            "hosts": "lode78-orgrimmar.oasgames.com",
+            "root" : "public"
+        }
+    }
+}
