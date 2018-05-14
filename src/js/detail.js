@@ -26,28 +26,28 @@ function init(){
 	var hashData = parseFloat(window.location.hash.replace('#',''));
 	switch(window.location.hash){
 	    case '#1':
-	        titleId = 49;
+	        titleId = 43;
 	        $('.bom_btn a')[hashData-1].className = 'detail_btn_ny1 active';
 	    break;
 	    case '#2':
-	        titleId = 50;
+	        titleId = 44;
 	        $('.bom_btn a')[hashData-1].className = 'detail_btn_ny2 active';
 	    break;
 	    case '#3':
-	        titleId = 51;
+	        titleId = 45;
 	        $('.bom_btn a')[hashData-1].className = 'detail_btn_ny3 active';
 	    break;
 	    case '#4':
-	        titleId = 52;
+	        titleId = 46;
 	        $('.bom_btn a')[hashData-1].className = 'detail_btn_ny4 active';
 	    break;
 	    case '#5':
-	        titleId = 53;
+	        titleId = 47;
 	        $('.bom_btn a')[hashData-1].className = 'detail_btn_ny5 active';
 	    break;
 	}
 	$.ajax({
-	    url: 'https://adm-lode.oasgames.com/tools/eventContent/api.php?search='+titleId,
+	    url: 'https://adm-lopl.oasgames.com/tools/eventContent/api.php?search='+titleId,
 	    dataType: 'jsonp',
 	    success: function (res) {
 	    	for(var i in res.items){
@@ -69,23 +69,23 @@ for(var i=0; i<$('.bom_btn a').length; i++){
     	this.className = arr[this.index]+' '+'active';
     	switch(this.index){
 		    case 0:
-		        titleId = 49;
+		        titleId = 43;
 		    break;
 		    case 1:
-		        titleId = 50;
+		        titleId = 44;
 		    break;
 		    case 2:
-		        titleId = 51;
+		        titleId = 45;
 		    break;
 		    case 3:
-		        titleId = 52;
+		        titleId = 46;
 		    break;
 		    case 4:
-		        titleId = 53;
+		        titleId = 47;
 		    break;
 		}
         $.ajax({
-            url: 'https://adm-lode.oasgames.com/tools/eventContent/api.php?search='+titleId,
+            url: 'https://adm-lopl.oasgames.com/tools/eventContent/api.php?search='+titleId,
             dataType: 'jsonp',
             success: function (res) {
             	for(var i in res.items){

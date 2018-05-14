@@ -1,8 +1,8 @@
 {
     "targets": {
-        "lode78-orgrmimmar": {
+        "site-lopl-event79": {
             "type" : "static",
-            "hosts": "lode78-orgrimmar.oasgames.com",
+            "hosts": "event79-lopl.oasgames.com",
             "root" : "public"
         }
     }
