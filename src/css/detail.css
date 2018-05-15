@@ -62,34 +62,34 @@ body{
 	margin-top: 40px;
 }
 .bom_btn a:nth-child(1).active{
-  background-image: url(../images/detail/atlas_detail.png);
-	background-position: 0px 0px;
-  width: 161px;
-  height: 164px;
+	background-image: url(../images/detail/atlas_detail.png);
+	background-position: -161px 0px;
+	width: 161px;
+	height: 164px
 }
 .bom_btn a:nth-child(2).active{
-  background-image: url(../images/detail/atlas_detail.png);
-	background-position: -322px 0px;
-  width: 161px;
-  height: 164px;
+    background-image: url(../images/detail/atlas_detail.png);
+	background-position: 0px -164px;
+	width: 161px;
+	height: 164px;
 }
 .bom_btn a:nth-child(3).active{
-  background-image: url(../images/detail/atlas_detail.png);
-	background-position: -483px -160px;
-  width: 157px;
-  height: 160px;
+    background-image: url(../images/detail/atlas_detail.png);
+	background-position: -322px -164px;
+	width: 161px;
+	height: 164px;height: 160px;
 }
 .bom_btn a:nth-child(4).active{
-  background-image: url(../images/detail/atlas_detail.png);
-	background-position: -157px -328px;
-  width: 157px;
-  height: 160px;
+    background-image: url(../images/detail/atlas_detail.png);
+	background-position: -483px -164px;
+	width: 161px;
+	height: 164px;
 }
 .bom_btn a:nth-child(5).active{
-  background-image: url(../images/detail/atlas_detail.png);
-	background-position: -471px -328px;
-  width: 157px;
-  height: 160px;
+    background-image: url(../images/detail/atlas_detail.png);
+	background-position: -161px -328px;
+	width: 161px;
+	height: 164px;
 }
 .content{
 	font-family: Tahoma;
